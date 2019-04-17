@@ -3,8 +3,10 @@
 //*
 static PWMConfig pwmcfg = 
 {
-  PWM_TIMER_FREQ,
-  PWM_PERIOD,
+//  PWM_TIMER_FREQ,
+  10000,
+//  PWM_PERIOD,
+  10000,
   NULL,
   {
    {PWM_OUTPUT_ACTIVE_HIGH, NULL},
@@ -34,7 +36,7 @@ void pwm_init(void)
   // Changes PWM period to half second the duty cycle becomes 50%
   // implicitly.
  // pwmChangePeriod(&PWMD1, 5000);
-  chThdSleepMilliseconds(5000);
+  //chThdSleepMilliseconds(5000);
 
 //  Disables channel 0 and stops the drivers.
 //  pwmDisableChannel(&PWMD1, 0);

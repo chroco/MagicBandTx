@@ -6,8 +6,8 @@
 
 //#define PWM_TIMER_FREQ  1016e5  /// Hz
 //#define PWM_FREQ        508e5   /// periods per sec
-#define PWM_TIMER_FREQ  508e5  /// Hz
-#define PWM_FREQ        508e5   /// periods per sec
+//#define PWM_TIMER_FREQ  508e5  /// Hz
+//#define PWM_FREQ        508e5   /// periods per sec
 #define PWM_PERIOD      PWM_TIMER_FREQ/PWM_FREQ
 
 #define THREAD_SIZE (1 << 7)
